@@ -6,7 +6,8 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
+
 }
 
 p {
@@ -32,7 +33,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .page-section {
@@ -51,7 +52,7 @@ h6 {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+font-family: 'Roboto', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -61,12 +62,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #dfc7c1;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #dfc7c1;
   text-shadow: none;
 }
 
@@ -83,7 +84,7 @@ img::-moz-selection {
 }
 
 .btn {
-  font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
@@ -93,13 +94,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #dfc7c1;
+  border-color: #dfc7c1;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #dfc7c1 !important;
+  border-color: #dfc7c1 !important;
   color: white;
 }
 
@@ -119,12 +120,11 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #fed136;
-  font-family: 'Barlow', sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
-font-family: 'Playfair Display', serif;
+  color: #dfc7c1;
+font-family: 'Old Standard TT', serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -137,11 +137,11 @@ font-family: 'Playfair Display', serif;
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Barlow', sans-serif;
+font-family: 'Old Standard TT', serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #dfc7c1;
 }
 
 @media (min-width: 992px) {
@@ -187,18 +187,17 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
-  font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+font-family: 'Roboto', sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 50px;
   margin-bottom: 25px;
-font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -208,17 +207,17 @@ font-family: 'Barlow', sans-serif;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
-    font-style: italic;
+    font-weight: lighter;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+font-family: 'Roboto', sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
   }
 }
 
@@ -246,7 +245,7 @@ font-family: 'Barlow', sans-serif;
   height: 100%;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background:#dfc7c1;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -290,7 +289,7 @@ font-family: 'Barlow', sans-serif;
   font-size: 16px;
   font-style: italic;
   margin: 0;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+font-family: 'Roboto', sans-serif;
 }
 
 #portfolio * {
@@ -326,7 +325,7 @@ font-family: 'Barlow', sans-serif;
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -620,25 +619,25 @@ section#contact .form-control:focus {
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
-font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .footer {
@@ -650,7 +649,7 @@ section#contact :-ms-input-placeholder {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .footer ul.quicklinks {
@@ -658,7 +657,7 @@ section#contact :-ms-input-placeholder {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-font-family: 'Barlow', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 ul.social-buttons {
@@ -675,9 +674,9 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: ##f4dcd6;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #f4dcd6;
 }
